@@ -1,83 +1,105 @@
-```markdown
-# OTP Validation
+<h1><strong>OTP Validation</strong></h1>
 
-This project is a Flutter application that includes the following screens:
-- **Login Screen**: Allows users to login using their phone number and password.
-- **OTP Screen**: Allows users to verify their phone number using OTP (One-Time Password).
-- **Forget Password Screen**: Allows users to reset their password by providing a new password and confirming it.
+<p>This project is a <strong>Flutter</strong> application that includes the following screens:</p>
+<ul>
+<li><strong>Login Screen:</strong> Allows users to login using their phone number and password.</li>
+<li><strong>OTP Screen:</strong> Allows users to verify their phone number using OTP (<em>One-Time Password</em>).</li>
+<li><strong>Forget Password Screen:</strong> Allows users to reset their password by providing a new password and confirming it.</li>
+</ul>
 
-The application also integrates with the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API to simulate sending OTP and verifying OTP.
+<p>The application also integrates with the <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a> API to simulate sending OTP and verifying OTP.</p>
 
-## Screenshots
+<h2><strong>Screenshots</strong></h2>
+<p><img src="https://github.com/iayr1/OtpValidation/assets/98678646/20111d9d-83d3-4f81-a850-ea85c0adf566" alt="screen1"></p>
+<p><img src="https://github.com/iayr1/OtpValidation/assets/98678646/b56c8cea-eff8-4d70-bd69-28769cdd5e02" alt="screen2"></p>
+<p><img src="https://github.com/iayr1/OtpValidation/assets/98678646/0eb8bad8-e472-43ea-9c1b-394892d9eebe" alt="screen3"></p>
+<p><img src="https://github.com/iayr1/OtpValidation/assets/98678646/9cf94a27-1cd5-4d9c-bb60-69913d3a3d23" alt="screen4"></p>
 
+<h2><strong>Features</strong></h2>
 
+<ul>
+<li><strong>Login Screen:</strong>
+<ul>
+<li>Enter phone number and password to login.</li>
+<li>Perform client-side validation of phone number and password.</li>
+</ul>
+</li>
+<li><strong>OTP Screen:</strong>
+<ul>
+<li>Select country code and enter phone number.</li>
+<li>Receive OTP via SMS and enter it for verification.</li>
+</ul>
+</li>
+<li><strong>Forget Password Screen:</strong>
+<ul>
+<li>Enter a new password and confirm it to reset the password.</li>
+</ul>
+</li>
+<li><strong>API Integration:</strong>
+<ul>
+<li>Uses JSONPlaceholder API to simulate sending OTP and verifying OTP.</li>
+</ul>
+</li>
+</ul>
 
-## Features
+<h2><strong>Technologies Used</strong></h2>
 
-- **Login Screen**:
-  - Enter phone number and password to login.
-  - Perform client-side validation of phone number and password.
-- **OTP Screen**:
-  - Select country code and enter phone number.
-  - Receive OTP via SMS and enter it for verification.
-- **Forget Password Screen**:
-  - Enter a new password and confirm it to reset the password.
-- **API Integration**:
-  - Uses JSONPlaceholder API to simulate sending OTP and verifying OTP.
+<ul>
+<li><strong>Flutter</strong></li>
+<li><strong>Dart</strong></li>
+<li><strong>JSONPlaceholder API</strong></li>
+</ul>
 
-## Technologies Used
+<h2><strong>Installation</strong></h2>
 
-- Flutter
-- Dart
-- JSONPlaceholder API
+<ol>
+<li>Clone the repository:
+<pre><code>git clone https://github.com/iayr1/OtpValidation
+</code></pre>
+</li>
+<li>Navigate to the project directory:
+<pre><code>cd project-directory
+</code></pre>
+</li>
+<li>Install dependencies:
+<pre><code>flutter pub get
+</code></pre>
+</li>
+<li>Run the application:
+<pre><code>flutter run
+</code></pre>
+</li>
+</ol>
 
-## Installation
+<h2><strong>Usage</strong></h2>
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/iayr1/OtpValidation
-   ```
+<ol>
+<li>Open the app on your device or emulator.</li>
+<li>Navigate through the screens using the provided functionality.</li>
+</ol>
 
-2. Navigate to the project directory:
-   ```
-   cd project-directory
-   ```
+<h2><strong>Contributing</strong></h2>
 
-3. Install dependencies:
-   ```
-   flutter pub get
-   ```
+<p>Contributions are welcome! Please follow these steps to contribute:</p>
+<ol>
+<li>Fork the repository.</li>
+<li>Create a new branch: <code>git checkout -b feature-branch</code>.</li>
+<li>Make your changes and commit them: <code>git commit -m 'Add new feature'</code>.</li>
+<li>Push to the branch: <code>git push origin feature-branch</code>.</li>
+<li>Submit a pull request.</li>
+</ol>
 
-4. Run the application:
-   ```
-   flutter run
-   ```
+<h2><strong>Credits</strong></h2>
 
-## Usage
+<ul>
+<li><a href="https://flutter.dev/"><strong>Flutter</strong></a> - UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.</li>
+<li><a href="https://jsonplaceholder.typicode.com/"><strong>JSONPlaceholder</strong></a> - A fake online REST API for testing and prototyping.</li>
+</ul>
 
-1. Open the app on your device or emulator.
-2. Navigate through the screens using the provided functionality.
+<h2><strong>License</strong></h2>
 
-## Contributing
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
-Contributions are welcome! Please follow these steps to contribute:
+<hr>
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`.
-3. Make your changes and commit them: `git commit -m 'Add new feature'`.
-4. Push to the branch: `git push origin feature-branch`.
-5. Submit a pull request.
-
-## Credits
-
-- [Flutter](https://flutter.dev/) - UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) - A fake online REST API for testing and prototyping.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-**Owner:** Mayur Chaudhari
-```
+<p><strong>Owner:</strong> <em>Mayur Chaudhari</em></p>
